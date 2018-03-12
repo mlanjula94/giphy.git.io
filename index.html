@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <!-- Latest compiled and minified CSS -->
+</head>
+
+<body>
+    <div class="container mt-5">
+        <!-- Display TV show buttons -->
+        <div class="row mt-5">
+            <div id="buttons-display" class="col-md-12"></div>
+
+        </div>
+
+        <div class="row">
+            <!-- Giphy Display Section -->
+            <div id="giphy-display" class="col-md-8">
+
+            </div>
+
+            <div class="col-md-4">
+                <!-- Artist Select Box -->
+                <form id="tvShow-form" class="float-right">
+
+                    <!-- Label for Text Box -->
+                    <label for="input-show">Add a TV show</label>
+
+                    <!-- Text Input Box -->
+                    <input type="text" id="input-show">
+
+                    <!-- Submit Button -->
+                    <input id="select-show" type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="giphyAPI.js" type="text/javascript"></script>
+</body>
+
+</html>
